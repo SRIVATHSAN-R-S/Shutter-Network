@@ -90,27 +90,16 @@
     }
         
     
-        document.querySelector(".close").addEventListener("click",function(){
+            document.querySelector(".close").addEventListener("click",function(){
             document.querySelector(".popup").style.display="none";
         })
 
     function got(src1){
-        console.log(src1);
-        
         document.querySelector(".popup").style.display="flex";
         document.getElementById("imageUp").src = src1;
         rl=document.getElementById("imgUp").src;
-        //downloadImage(src1);
-        //file =document.getElementById("input-file").files[0];
         var splits=src1.split('///');
-        //src1=splits[1];
-        console.log(src1);
-
-        //document.getElementById("download").href = src1;
-        //link.setAttribute("href",src1);
-        //console.log(document.getElementById("download").href);
-        //document.getElementById("download").href.download;
-        //src1.download;
+        
     }
 </script>
     
